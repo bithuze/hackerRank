@@ -1,0 +1,7 @@
+a=int(input())
+li=list(input().split())
+b=int(input())
+bi=list(input().split())
+set_li=set(li)
+set_bi=set(bi)
+print(len(set_li|set_bi))
